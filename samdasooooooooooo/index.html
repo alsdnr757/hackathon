@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신고 앱</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30vh;
+        }
+
+        button {
+            background-color: red;
+            color: #fff;
+            padding: 30px 60px;
+            font-size: 25px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+<button onclick="showReportDialog()">신고하기</button>
+
+<script>
+    
+    function showReportDialog() {
+        var confirmation = confirm(' 119에 신고하고 주변인에게 도움을 청할까요? ');
+    }
+
+</script>
+
+</body>
+</html>
